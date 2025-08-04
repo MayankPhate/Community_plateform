@@ -1,6 +1,6 @@
 
 ✅  community-plateform
-✅ Screenshots: Uploaded and shared — they clearly show registration, login, profile access, and the empty post feed.
+
 
 
 
@@ -19,64 +19,49 @@ Hosting: Vercel (frontend), Render (or your deployment choice for backend)
 👉 Open Live Demo https://community-plateform-fronte-git-3da413-mayanks-projects-0783a271.vercel.app
 
 📂 Setup Instructions
-Clone the repository:
+1.Clone the repository:
 
-bash
-Copy
-Edit
 git clone https://github.com/MayankPhate/Community_plateform.git
 cd Community_plateform
-Install frontend dependencies:
 
-bash
-Copy
-Edit
+2. Install frontend dependencies:
+
 cd frontend
 npm install
-Install backend dependencies:
 
-bash
-Copy
-Edit
+3.Install backend dependencies:
+
 cd ../backend
 npm install
-Setup environment variables:
+
+4.Setup environment variables:
 
 In backend/.env, set:
-
-ini
-Copy
-Edit
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 PORT=5000
+
 In frontend, configure API base URL if needed.
 
-Run backend:
+5.Run backend:
 
-bash
-Copy
-Edit
 npm run dev
-Run frontend:
 
-bash
-Copy
-Edit
+6.Run frontend:
+
 cd ../frontend
 npm run dev
-Visit http://localhost:5173 in your browser.
+
+7.Visit http://localhost:5173 in your browser.
 
 🔑 Admin/Demo User Logins
 (Replace with real demo accounts or leave empty if not set up yet.)
 
 Example:
 
-makefile
-Copy
-Edit
 Email: demo@example.com
 Password: demopassword
+
 ✅ Features
 User registration & login with JWT auth
 
